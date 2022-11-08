@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    line-height: 1.5;
+    background-image: linear-gradient(0deg, rgb(213, 229, 183) 0%, rgb(213, 229, 183) 17%,rgb(189, 213, 190) 17%, rgb(189, 213, 190) 29%,rgb(166, 196, 196) 29%, rgb(166, 196, 196) 38%,rgb(142, 180, 203) 38%, rgb(142, 180, 203) 47%,rgb(118, 164, 210) 47%, rgb(118, 164, 210) 58%,rgb(95, 147, 216) 58%, rgb(95, 147, 216) 88%,rgb(71, 131, 223) 88%, rgb(71, 131, 223) 100%),linear-gradient(157.5deg, rgb(213, 229, 183) 0%, rgb(213, 229, 183) 17%,rgb(189, 213, 190) 17%, rgb(189, 213, 190) 29%,rgb(166, 196, 196) 29%, rgb(166, 196, 196) 38%,rgb(142, 180, 203) 38%, rgb(142, 180, 203) 47%,rgb(118, 164, 210) 47%, rgb(118, 164, 210) 58%,rgb(95, 147, 216) 58%, rgb(95, 147, 216) 88%,rgb(71, 131, 223) 88%, rgb(71, 131, 223) 100%),linear-gradient(112.5deg, rgb(213, 229, 183) 0%, rgb(213, 229, 183) 17%,rgb(189, 213, 190) 17%, rgb(189, 213, 190) 29%,rgb(166, 196, 196) 29%, rgb(166, 196, 196) 38%,rgb(142, 180, 203) 38%, rgb(142, 180, 203) 47%,rgb(118, 164, 210) 47%, rgb(118, 164, 210) 58%,rgb(95, 147, 216) 58%, rgb(95, 147, 216) 88%,rgb(71, 131, 223) 88%, rgb(71, 131, 223) 100%),linear-gradient(90deg, rgb(213, 229, 183) 0%, rgb(213, 229, 183) 17%,rgb(189, 213, 190) 17%, rgb(189, 213, 190) 29%,rgb(166, 196, 196) 29%, rgb(166, 196, 196) 38%,rgb(142, 180, 203) 38%, rgb(142, 180, 203) 47%,rgb(118, 164, 210) 47%, rgb(118, 164, 210) 58%,rgb(95, 147, 216) 58%, rgb(95, 147, 216) 88%,rgb(71, 131, 223) 88%, rgb(71, 131, 223) 100%),linear-gradient(90deg, rgb(173, 92, 95),rgb(110, 20, 174)); background-blend-mode:overlay,overlay,overlay,overlay,normal;
+}
+.gallery{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20px;
+}
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: #444;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 40px 0;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown_content {
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    margin-top: 0;
+    box-shadow: 0 10px 20px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    display: none;
+}
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+.text{
+    font-size: 12px;
+    text-align: left;
+    padding: 20px;
+}
+.btn{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.btn-1{
+    background: #444  ;
+}
